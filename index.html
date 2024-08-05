@@ -1,192 +1,195 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FLEURIR</title>
-    <meta name="description" content="コスメブランド「FLEURIR」公式サイト。">
+    <meta name="description" content="コスメブランド「FLEURIR」公式サイト。" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/335fea4e4e.js" crossorigin="anonymous"></script>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- ヘッダー -->
     <header class="header">
+      <!-- ロゴ -->
+      <a href="index.html" class="logo">
+        <picture>
+          <source media="(max-width:768px)" srcset="./images/sp_logo.svg" />
+          <img src="./images/pc_logo.svg" alt="ロゴ" />
+        </picture>
+      </a>
+      <div id="nav-button" class="nav-button"><i class="fas fa-bars" aria-label="menu"></i></div>
 
-        <!-- ロゴ -->
-        <a href="index.html" class="logo">
-            <picture>
-                <source media="(max-width:768px)" srcset="./images/sp_logo.svg">
-                <img src="./images/pc_logo.svg" alt="ロゴ">
-            </picture>
-        </a>
-        <div id="nav-button" class="nav-button"><i class="fas fa-bars" aria-label="menu"></i></div>
+      <!-- SPナビゲーション -->
+      <nav class="sp-nav">
+        <ul class="sp-nav-list">
+          <li><a href="about.html">ABOUT FLEURIR</a></li>
+          <li><a href="products.html">PRODUCTS</a></li>
+          <li><a href="news.html">NEWS</a></li>
+        </ul>
+      </nav>
 
-        <!-- SPナビゲーション -->
-        <nav class="sp-nav">
-            <ul class="sp-nav-list">
-                <li><a href="about.html">ABOUT FLEURIR</a></li>
-                <li><a href="products.html">PRODUCTS</a></li>
-                <li><a href="news.html">NEWS</a></li>
-            </ul>
-        </nav>
-
-        <!-- PCナビゲーション -->
-        <nav class="pc-nav">
-            <ul class="pc-nav-list">
-                <li><a href="about.html">ABOUT FLEURIR</a></li>
-                <li><a href="products.html">PRODUCTS</a></li>
-                <li><a href="news.html">NEWS</a></li>
-            </ul>
-        </nav>
+      <!-- PCナビゲーション -->
+      <nav class="pc-nav">
+        <ul class="pc-nav-list">
+          <li><a href="about.html">ABOUT FLEURIR</a></li>
+          <li><a href="products.html">PRODUCTS</a></li>
+          <li><a href="news.html">NEWS</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- メイン -->
     <main>
-        <!-- カバー -->
-        <section class="carousel">
-            <div>
-                <picture>
-                    <source media="(max-width:768px)" srcset="./images/sp_slide_1.jpg">
-                    <img src="./images/pc_slide_1.jpg" alt="リップグロス">
-                </picture>
-            </div>
-            <div>
-                <picture>
-                    <source media="(max-width:768px)" srcset="./images/sp_slide_2.jpg">
-                    <img src="./images/pc_slide_2.jpg" alt="メイクブラシ">
-                </picture>
-            </div>
-            <div>
-                <picture>
-                    <source media="(max-width:768px)" srcset="./images/sp_slide_3.jpg">
-                    <img src="./images/pc_slide_3.jpg" alt="コスメセット">
-                </picture>
-            </div>
-        </section>
+      <!-- カバー -->
+      <section class="carousel">
+        <div>
+          <picture>
+            <source media="(max-width:768px)" srcset="./images/sp_slide_1.jpg" />
+            <img src="./images/pc_slide_1.jpg" alt="リップグロス" />
+          </picture>
+        </div>
+        <div>
+          <picture>
+            <source media="(max-width:768px)" srcset="./images/sp_slide_2.jpg" />
+            <img src="./images/pc_slide_2.jpg" alt="メイクブラシ" />
+          </picture>
+        </div>
+        <div>
+          <picture>
+            <source media="(max-width:768px)" srcset="./images/sp_slide_3.jpg" />
+            <img src="./images/pc_slide_3.jpg" alt="コスメセット" />
+          </picture>
+        </div>
+      </section>
 
-        <!--アバウト-->
-        <section class="about">
-            <div class="section-heading">
-                <h1 class="section-title">ABOUT FLEURIR</h1>
-                <a class="view" href="about.html">VIEW ALL <i class="fas fa-chevron-right"></i></a>
-            </div>
-            <div class="about-container">
-                <div class="image">
-                    <img src="./images/about_1.jpg" alt="人">
-                </div>
-                <p class="sp-catchcopy">＂かわいい＂をもっと開花させる</p>
-                <div class="pc-about-text">
-                    <p class="pc-catchcopy">＂かわいい＂をもっと開花させる</p>
-                    <p class="catchcopy-description">使うたび、可憐に華やぐ。</p>
-                    <p class="catchcopy-description">使いやすさと、肌への優しさにもこだわったコスメブランド。</p>
-                    <p class="catchcopy-description">自分だけのかわいいを咲かせて日々に彩りを。</p>
-                </div>
-            </div>
-        </section>
+      <!--アバウト-->
+      <section class="about">
+        <div class="section-heading">
+          <h1 class="section-title">ABOUT FLEURIR</h1>
+          <a class="view" href="about.html">VIEW ALL <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="about-container">
+          <div class="image">
+            <img src="./images/about_1.jpg" alt="人" />
+          </div>
+          <p class="sp-catchcopy">＂かわいい＂をもっと開花させる</p>
+          <div class="pc-about-text">
+            <p class="pc-catchcopy">＂かわいい＂をもっと開花させる</p>
+            <p class="catchcopy-description">使うたび、可憐に華やぐ。</p>
+            <p class="catchcopy-description">使いやすさと、肌への優しさにもこだわったコスメブランド。</p>
+            <p class="catchcopy-description">自分だけのかわいいを咲かせて日々に彩りを。</p>
+          </div>
+        </div>
+      </section>
 
-        <!--プロダクツ-->
-        <section class="products">
-            <div class="section-heading">
-                <h1 class="section-title">PRODUCTS</h1>
-                <a class="view" href="products.html">VIEW ALL <i class="fas fa-chevron-right"></i></a>
-            </div>
+      <!--プロダクツ-->
+      <section class="products">
+        <div class="section-heading">
+          <h1 class="section-title">PRODUCTS</h1>
+          <a class="view" href="products.html">VIEW ALL <i class="fas fa-chevron-right"></i></a>
+        </div>
 
-            <!--SPプロダクツコンテナ-->
-            <div class="sp-products-container">
-                <div class="products-item">
-                    <img src="./images/products_1.jpg" alt="アイシャドウ">
-                    <p>EYESHADOW</p>
-                    <p class="price">3,500円(税込)</p>
-                </div>
-                <div class="products-item">
-                    <img src="./images/products_2.jpg" alt="リップティント">
-                    <p>LIP TINT</p>
-                    <p class="price">3,300円(税込)</p>
-                </div>
-            </div>
+        <!--SPプロダクツコンテナ-->
+        <div class="sp-products-container">
+          <div class="products-item">
+            <img src="./images/products_1.jpg" alt="アイシャドウ" />
+            <p>EYESHADOW</p>
+            <p class="price">3,500円(税込)</p>
+          </div>
+          <div class="products-item">
+            <img src="./images/products_2.jpg" alt="リップティント" />
+            <p>LIP TINT</p>
+            <p class="price">3,300円(税込)</p>
+          </div>
+        </div>
 
-            <!--PCプロダクツコンテナ-->
-            <div class="pc-products-container">
-                <div class="products-item">
-                    <img src="./images/products_1.jpg" alt="アイシャドウ">
-                    <p>EYESHADOW</p>
-                    <p class="price">3,500円(税込)</p>
-                </div>
-                <div class="products-item">
-                    <img src="./images/products_2.jpg" alt="リップティント">
-                    <p>LIP TINT</p>
-                    <p class="price">3,300円(税込)</p>
-                </div>
-                <div class="products-item">
-                    <img src="./images/products_3.jpg" alt="ファンデーション">
-                    <p>FOUNDATION</p>
-                    <p class="price">6,000円(税込)</p>
-                </div>
-            </div>
-        </section>
+        <!--PCプロダクツコンテナ-->
+        <div class="pc-products-container">
+          <div class="products-item">
+            <img src="./images/products_1.jpg" alt="アイシャドウ" />
+            <p>EYESHADOW</p>
+            <p class="price">3,500円(税込)</p>
+          </div>
+          <div class="products-item">
+            <img src="./images/products_2.jpg" alt="リップティント" />
+            <p>LIP TINT</p>
+            <p class="price">3,300円(税込)</p>
+          </div>
+          <div class="products-item">
+            <img src="./images/products_3.jpg" alt="ファンデーション" />
+            <p>FOUNDATION</p>
+            <p class="price">6,000円(税込)</p>
+          </div>
+        </div>
+      </section>
 
-        <!--ニュース-->
-        <section class="news">
-            <div class="section-heading">
-                <h1 class="section-title">NEWS</h1>
-                <a class="view" href="news.html">VIEW ALL <i class="fas fa-chevron-right"></i></a>
-            </div>
-            <div class="sp-news-container">
-                <div class="news-items">
-                    <img src="./images/news_1.jpg" alt="リキッドアイシャドウ">
-                    <p>【Limited Items】</p>
-                    <p class="description1">リキッドアイシャドウ</p>
-                    <p class="description2">2023年4月1日より発売</p>
-                </div>
+      <!--ニュース-->
+      <section class="news">
+        <div class="section-heading">
+          <h1 class="section-title">NEWS</h1>
+          <a class="view" href="news.html">VIEW ALL <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="sp-news-container">
+          <div class="news-items">
+            <img src="./images/news_1.jpg" alt="リキッドアイシャドウ" />
+            <p>【Limited Items】</p>
+            <p class="description1">リキッドアイシャドウ</p>
+            <p class="description2">2023年4月1日より発売</p>
+          </div>
+        </div>
+        <div class="pc-news-container">
+          <div class="news-items">
+            <img src="./images/news_1.jpg" alt="リキッドアイシャドウ" />
+            <p>【Limited Items】</p>
+            <p class="description1">リキッドアイシャドウ</p>
+            <p class="description2">2023年4月1日より発売</p>
+          </div>
+          <div class="news-items">
+            <img src="./images/news_2.jpg" alt="リキッドアイシャドウ" />
+            <p>【New Items】</p>
+            <p class="description1">UVプロテクター</p>
+            <p class="description2">2023年4月1日より発売</p>
+          </div>
+        </div>
+      </section>
 
-            </div>
-            <div class="pc-news-container">
-                <div class="news-items">
-                    <img src="./images/news_1.jpg" alt="リキッドアイシャドウ">
-                    <p>【Limited Items】</p>
-                    <p class="description1">リキッドアイシャドウ</p>
-                    <p class="description2">2023年4月1日より発売</p>
-                </div>
-                <div class="news-items">
-                    <img src="./images/news_2.jpg" alt="リキッドアイシャドウ">
-                    <p>【New Items】</p>
-                    <p class="description1">UVプロテクター</p>
-                    <p class="description2">2023年4月1日より発売</p>
-                </div>
-            </div>
-        </section>
-
-        <!--SNS-->
-        <section class="sns">
-            <a href="index.html" class="logo">
-                <picture>
-                    <source media="(max-width:768px)" srcset="./images/sp_logo.svg">
-                    <img src="./images/pc_logo.svg" alt="ロゴ">
-                </picture>
-            </a>
-            <ul class="sns-icon">
-                <li class="twitter"><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" aria-label="Twitter"></i></a></li>
-                <li class="facebook"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                <li class="instagram"><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" aria-label="Instagram"></i></a></li>
-                <li class="youtube"><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
-            </ul>
-        </section>
+      <!--SNS-->
+      <section class="sns">
+        <a href="index.html" class="logo">
+          <picture>
+            <source media="(max-width:768px)" srcset="./images/sp_logo.svg" />
+            <img src="./images/pc_logo.svg" alt="ロゴ" />
+          </picture>
+        </a>
+        <ul class="sns-icon">
+          <li class="twitter">
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" aria-label="Twitter"></i></a>
+          </li>
+          <li class="facebook">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li class="instagram">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" aria-label="Instagram"></i></a>
+          </li>
+          <li class="youtube">
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <!-- フッター -->
     <footer class="footer">
-        <p class="text-center uppercase">&copy; FLEURIR.</p>
+      <p class="text-center uppercase">&copy; FLEURIR.</p>
     </footer>
 
     <!-- JS -->
@@ -194,7 +197,5 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/carousel.js"></script>
     <script src="./js/hamburger.js"></script>
-
-</body>
-
+  </body>
 </html>
