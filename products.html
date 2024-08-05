@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEURIR</title>
+    <meta name="description" content="コスメブランド「FLEURIR」公式サイト。">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/335fea4e4e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- ヘッダー -->
+    <header class="header">
+
+        <!-- ロゴ -->
+        <a href="index.html" class="logo">
+            <picture>
+                <source media="(max-width:768px)" srcset="./images/sp_logo.svg">
+                <img src="./images/pc_logo.svg" alt="ロゴ">
+            </picture>
+        </a>
+        <div id="nav-button" class="nav-button"><i class="fas fa-bars" aria-label="menu"></i></div>
+
+        <!-- SPナビゲーション -->
+        <nav class="sp-nav">
+            <ul class="sp-nav-list">
+                <li><a href="about.html">ABOUT FLEURIR</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="news.html">NEWS</a></li>
+            </ul>
+        </nav>
+
+        <!-- PCナビゲーション -->
+        <nav class="pc-nav">
+            <ul class="pc-nav-list">
+                <li><a href="about.html">ABOUT FLEURIR</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="news.html">NEWS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- メイン -->
+    <main>
+        <!--プロダクツ-->
+        <section class="products">
+            <div class="page-heading">
+                <h1 class="section-title">PRODUCTS</h1>
+            </div>
+            <div class="common-products-container">
+                <div class="products-item1">
+                    <img src="./images/products_1.jpg" alt="アイシャドウ">
+                    <p>EYESHADOW</p>
+                    <p class="price">3,500円(税込)</p>
+                </div>
+                <div class="products-item1">
+                    <img src="./images/products_2.jpg" alt="リップティント">
+                    <p>LIP TINT</p>
+                    <p class="price">3,300円(税込)</p>
+                </div>
+                <div class="products-item1">
+                    <img src="./images/products_3.jpg" alt="ファンデーション">
+                    <p>FOUNDATION</p>
+                    <p class="price">6,000円(税込)</p>
+                </div>
+                <div class="products-item2">
+                    <img src="./images/products_4.jpg" alt="ネイルクラッカー">
+                    <p>NAIL LACQUER</p>
+                    <p class="price">2,000円(税込)</p>
+                </div>
+                <div class="products-item2">
+                    <img src="./images/products_5.jpg" alt="パフューム">
+                    <p>PERFUME</p>
+                    <p class="price">5,500円(税込)</p>
+                </div>
+                <div class="products-item2">
+                    <img src="./images/products_6.jpg" alt="ブラシセット">
+                    <p>PBRUSH SET</p>
+                    <p class="price">6,500円(税込)</p>
+                </div>
+            </div>
+        </section>
+
+        <!--SNS-->
+        <section class="sns">
+            <a href="index.html" class="logo">
+                <picture>
+                    <source media="(max-width:768px)" srcset="./images/sp_logo.svg">
+                    <img src="./images/pc_logo.svg" alt="ロゴ">
+                </picture>
+            </a>
+            <ul class="sns-icon">
+                <li class="twitter"><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" aria-label="Twitter"></i></a></li>
+                <li class="facebook"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                <li class="instagram"><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" aria-label="Instagram"></i></a></li>
+                <li class="youtube"><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <p class="text-center uppercase">&copy; FLEURIR.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/hamburger.js"></script>
+
+</body>
+
+</html>

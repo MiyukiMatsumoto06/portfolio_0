@@ -1,0 +1,77 @@
+//
+//セクション題名
+//
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 33.5rem;
+    padding: 6rem 0 2rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    @media (min-width: 769px) {
+        justify-content: flex-start;
+        max-width: 108rem;
+        padding: 12rem 0 4rem;
+    }
+}
+
+.section-title {
+    display: inline-block;
+    text-align: center;
+    font-family: 'HGS明朝E', sans-serif;
+    font-size: 2.2rem;
+    color: $pink2;
+    line-height: 0;
+
+    @media (min-width: 769px) {
+        font-size: 2.7rem;
+    }
+}
+
+.view {
+    display: inline-block;
+    text-align: center;
+    font-family: 'HGS明朝E', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $pink2;
+
+    @media (min-width: 769px) {
+        font-size: 1.7rem;
+        margin-left: 4rem;
+    }
+}
+
+//アバウトページ
+.about-title {
+    text-align: center;
+    font-family: 'HGS明朝E', sans-serif;
+    font-size: 2.2rem;
+    color: $pink2;
+    line-height: 1;
+
+    @media (min-width: 769px) {
+        font-size: 2.7rem;
+    }
+}
+
+//プロダクツ・ニュースページ
+
+.page-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 33.5rem;
+    padding: 11rem 0 2rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    @media (min-width: 769px) {
+        justify-content: flex-start;
+        max-width: 108rem;
+        padding: 19rem 0 4rem;
+    }
+}

@@ -1,0 +1,96 @@
+//
+//プロダクツ
+//
+
+//トップページ
+
+.sp-products-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 33.5rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    @media (min-width: 769px) {
+        display: none;
+    }
+}
+
+.pc-products-container {
+    display: none;
+
+    @media (min-width: 769px) {
+        display: flex;
+        justify-content: space-between;
+        max-width: 108rem;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+}
+
+.products-item {
+    width: calc((100% - 2rem) / 2);
+
+    @media (min-width: 769px) {
+        width: calc((100% - 8rem) / 3);
+
+        p {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+.price {
+    line-height: 0;
+}
+
+.pc-products-item {
+    display: none;
+
+    @media (min-width: 769px) {
+        display: block;
+    }
+}
+
+
+
+
+//プロダクツページ
+.common-products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 33.5rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    @media (min-width: 769px) {
+        max-width: 108rem;
+    }
+}
+
+.products-item1 {
+    width: calc((100% - 2rem) / 2);
+    margin-bottom: 2rem;
+
+    @media (min-width: 769px) {
+        width: calc((100% - 8rem) / 3);
+        margin-bottom: 6rem;
+
+        p {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+.products-item2 {
+    width: calc((100% - 2rem) / 2);
+
+    @media (min-width: 769px) {
+        width: calc((100% - 8rem) / 3);
+
+        p {
+            font-size: 1.8rem;
+        }
+    }
+}

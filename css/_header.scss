@@ -1,0 +1,104 @@
+//
+// ヘッダーのスタイル
+//
+// ヘッダー
+.header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    width: 100%;
+    height: 5rem;
+    padding: 0 0 0 2rem;
+    background-color: $pink1;
+    box-sizing: border-box;
+
+    @media (min-width: 769px) {
+        padding: 0 14.3rem;
+        height: 7rem;
+    }
+}
+
+// ハンバーガーメニューボタン
+.nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 6rem;
+    font-size: 2rem;
+    color: $gray1;
+    cursor: pointer;
+
+    @media (min-width: 769px) {
+        display: none;
+    }
+}
+
+// SPナビゲーション
+.sp-nav {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    display: none;
+    z-index: 1000;
+    width: 100%;
+    padding-top: 12rem;
+    font-size: 3rem;
+    font-family: 'HGS明朝E', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: $gray2;
+    box-sizing: border-box;
+}
+
+.sp-nav-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+        line-height: 1;
+        margin-bottom: 6rem;
+
+        &:last-child {
+            margin-bottom: 30rem;
+        }
+    }
+
+    a {
+        color: $pink2;
+    }
+}
+
+// PCナビゲーション
+.pc-nav {
+    display: none;
+
+    @media (min-width: 769px) {
+        display: block;
+    }
+}
+
+.pc-nav-list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 2.2rem;
+    font-family: 'HGS明朝E', sans-serif;
+    font-weight: bold;
+    list-style: none;
+    list-style: none;
+
+    li {
+        margin: 0 0 0 5rem;
+    }
+
+    a {
+        color: $pink2;
+    }
+}

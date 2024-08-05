@@ -1,0 +1,50 @@
+//
+//SNS
+//
+
+.sns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 33.5rem;
+    padding: 9rem 0 5rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    @media (min-width: 769px) {
+        flex-direction: column;
+        padding: 18rem 0 10rem;
+    }
+}
+
+.sns-icon {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+
+    @media (min-width: 769px) {
+        margin-top: 2rem;
+    }
+
+    li {
+        margin-right: 2rem;
+
+        @media (min-width: 769px) {
+            margin-right: 3rem;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    a {
+        font-size: 3rem;
+        color: $pink2;
+
+        @media (min-width: 769px) {
+            font-size: 4rem;
+        }
+    }
+}

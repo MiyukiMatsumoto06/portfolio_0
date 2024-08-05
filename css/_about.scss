@@ -1,0 +1,158 @@
+//
+//アバウト
+//
+
+//トップページ
+
+.about-container {
+    max-width: 33.5rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    @media (min-width: 769px) {
+        display: flex;
+        align-items: center;
+        max-width: 108rem;
+    }
+}
+
+.image {
+    @media (min-width: 769px) {
+        width: 50%;
+    }
+}
+
+.sp-catchcopy {
+    text-align: center;
+    font-size: 1.8rem;
+
+    @media (min-width: 769px) {
+        display: none;
+    }
+}
+
+.pc-about-text {
+    display: none;
+
+    @media (min-width: 769px) {
+        display: block;
+        max-width: 51rem;
+        margin-left: 3rem;
+    }
+}
+
+.pc-catchcopy {
+    display: none;
+
+    @media (min-width: 769px) {
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+.about-text {
+    max-width: 24rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.catchcopy-description {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+
+    @media (min-width: 769px) {
+        font-size: 1.8rem;
+    }
+}
+
+
+//アバウトページ
+
+.about-container2 {
+    max-width: 33.5rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    @media (min-width: 769px) {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 14rem;
+        margin-bottom: 12rem;
+        align-items: center;
+        max-width: 108rem;
+    }
+}
+
+.concept-img2 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3rem 0;
+    box-sizing: border-box;
+
+    @media (min-width: 769px) {
+        max-width: 25%;
+        margin: 0;
+    }
+}
+
+
+.brand-catchcopy {
+    text-align: center;
+    font-size: 1.8rem;
+
+    @media (min-width: 769px) {
+        font-size: 2rem;
+    }
+}
+
+.about-text2 {
+    max-width: 24rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    @media (min-width: 769px) {
+        max-width: 51rem;
+    }
+}
+
+.concept-img3 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 3rem 0;
+    box-sizing: border-box;
+
+    @media (min-width: 769px) {
+        max-width: 25%;
+        margin: 0;
+    }
+}
+
+.img-container {
+    display: flex;
+    max-width: 33.5rem;
+    margin: 0 auto;
+    padding-top: 3rem;
+    box-sizing: border-box;
+
+    @media (min-width: 769px) {
+        max-width: 108rem;
+        padding-top: 10rem;
+
+    }
+}
+
+.about-item {
+    width: 34%;
+    margin-right: 2rem;
+
+    @media (min-width: 769px) {
+        margin-right: 4rem;
+
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
